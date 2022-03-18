@@ -8,7 +8,7 @@ namespace tpmodul4_1302204126
 {
     internal class HaloGeneric
     {
-        public void sapaUser(String nama)
+        public static void sapaUser(String nama)
         {
             Console.WriteLine("Halo User " + nama);
         }
