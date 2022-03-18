@@ -6,7 +6,9 @@ namespace tpmodul4_1302204126
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DataGeneric<String> data = new DataGeneric<String>("1302204126");
+
+            data.printData();
         }
     }
 }
